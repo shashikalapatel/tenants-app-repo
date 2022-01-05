@@ -1,0 +1,332 @@
+/* CSS Document */
+/*  OPTIMIZED CODE BY Dolly  
+    Desktop View 
+*/
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700i&display=swap');
+//font-family: 'Merriweather', serif;
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
+//font-family: 'Montserrat', sans-serif;
+
+body{
+  font-size: 14px;
+  line-height: 1.5;
+  a {
+    color: #337ab7;
+    text-decoration: none;
+  }
+}
+.form-control{
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 8%);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 8%);
+
+  &:focus{
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 8%), 0 0 8px rgba(102, 175, 233, 60%);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 8%), 0 0 8px rgba(102, 175, 233, 60%);
+  }
+}
+.col-xs-12{
+  width: 100%;
+  float: left;
+}
+.img-responsive{
+  max-width: 100%;
+  height: auto;
+}
+.hide{
+  display: none;
+}
+.main_body {
+  .mob-only{display: none;}
+  background-size: inherit;
+  background-image: url(https://sandbox.ovrture.com/ui/images/Org_1/2/Password_background.png);
+  background-repeat: round;
+  height: 100vh;
+  .login_container .login_wrapper {
+    width: 677px;
+    transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    .login-body-wrapper {
+      border-top: 5px solid #ebec00;
+      background-color: #ffffff;
+      padding: 0 15px 45px;
+    }
+  }
+  .prospect_name {
+    outline: none;
+    font-size: 23px;
+    line-height: 30px;
+    padding: 45px 45px 0;
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: 1px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #502d0b;
+    text-align: center;
+  }
+  .user_passcode_wrapper{
+    left: 50%;
+    transform: translateX(-50%);
+	  -webkit-transform: translateX(-50%);
+    width: 297px;
+    position: relative;
+  }
+  .passcode_msg {
+    outline: none;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 15px;
+    color: #252525;
+    text-align: center;
+  }
+  .input-field-wrapper{
+    .form-control {
+      width: inherit;
+      border: 2px solid #d6d7d9;
+      text-align: center;
+    }
+  }
+  .label{
+    font-size: 18px;
+    line-height: 22px;
+    color: #252525;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 0;
+  }
+  .passcode_wrapper {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  }
+  .button_wrapper {
+    margin-top: 42px;
+    margin-bottom: 62px;
+    .login_btn {
+      background-color: #ffffff;
+      border: 2px solid #d6d7d9;
+      color: #404041;
+      padding-top: 7px;
+      border-radius: 0px;
+      font-size: 15px;
+      width: 207px;
+      height: 44px;
+      margin: auto;
+      font-family: 'Montserrat', sans-serif;
+      letter-spacing: 1px;
+      &:hover {
+        background-color: #ebec00;
+        border: 2px solid #777677;
+        color: #502d0b;
+      }
+    }
+  }
+  .image-logo {
+    max-width: 335px;
+    width: 235px;
+    height: 52px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    position: relative;
+  }
+  .policy-wrapper_mob-only {
+    display:none;
+  }
+  .policy-wrapper {
+    text-align: center;
+    margin-top: 12px;
+    a {
+       height: 20px;
+       width: 136px;
+       padding: 2px 5px 3px 5px;
+       background: #e1e1e1;
+       color: #333 !important;
+      .icon-image{
+      img{
+         height: 11px;
+         line-height: 1;
+         opacity: 0.9;
+         width: 11px;
+         display: inline-block;
+         margin-right: 6px;
+         margin-bottom:2px;
+      }
+    }
+    .privacy_info_text {
+      font-size: 12px;
+      letter-spacing: 0px;
+      line-height: 19px;
+      opacity: 0.9;
+      color: #333333;
+      font-family: 'Montserrat', sans-serif;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    }
+  }
+  
+  .footer_wrapper {
+    text-align: center;
+    max-width: 740px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    line-height: 19px;
+    letter-spacing: 0px;
+    padding-top: 14px;
+  }
+  .forgot_passcode_wrapper {
+    text-align: center;
+    a {
+      cursor: pointer;
+      text-decoration: underline;
+    }
+  }
+/*
+* @ Common login Css Start
+*/
+  &.common_login_body{
+    .input-field-wrapper{
+      .form-control {
+        text-align: left;
+      }
+    }
+    .user_passcode_wrapper{padding-top: 42px;}
+    .input-field-wrapper{
+      .form-control {
+        margin-top: 9px;
+      }
+    }
+    .hover_login_text{display: none;}
+    .button_wrapper{
+      button:hover{
+        .login_text{display: none;}
+        .hover_login_text{display: block;}
+      }
+    }
+  } 
+}
+
+/**********************  Mobile View  Started *********************************/
+@media only screen and (max-width: 991px) {
+  .main_body {
+    .mob-only{display: block;}
+    .web-only{display: none;}
+    background-color: #ffffff;
+    background-image: none;
+    .login_container .login_wrapper {
+      width: 100%;
+      transform: none;
+      top: 0;
+      left: 0;
+      position: inherit;
+      .login-body-wrapper {
+        border-top: 5px solid #ebec00;
+      }
+    }
+    .prospect_name {
+      font-size: 22px;
+      padding: 75px 22px 0;
+    }
+    .passcode_msg {
+      font-size: 14.4px;
+      margin-top: 10px;
+      padding-bottom: 4px;
+    }
+    .passcode_wrapper {
+      margin: 28px 0 10px 0;
+    }
+    .label{
+      font-size: 14px;
+      line-height: 18px;
+    }
+    .user_passcode_wrapper{
+      width: 253px;
+    }
+    .forgot_passcode_wrapper {
+      margin-bottom: 12px;
+    }
+    .button_wrapper {
+      margin-top: 15px;
+      margin-bottom: 0px;
+      .login_btn {
+        background-color: #ebec00;
+        font-size: 12px;
+        margin-left: 50%;
+        transform: translateX(-50%);
+		    -webkit-transform: translateX(-50%);
+        width: 193px;
+        margin-top: 0px;
+        line-height: normal;
+        color: #502d0b;
+        border: 2px solid #777677;
+        padding-top: 6px;
+      }
+    }
+    .image-logo {
+     margin-top: 110px;
+      .img-responsive {
+        height: auto;
+      }
+    }
+    .footer_wrapper {
+      margin-left: 50%;
+      transform: translateX(-50%);
+	  -webkit-transform: translateX(-50%);
+      text-align: center;
+      font-size: 11px;
+      line-height: 18px;
+      letter-spacing: 0;
+      margin-top: 0;
+      padding-top: 0;
+      bottom: 180px;
+      position: relative;
+    }
+    .policy-wrapper {
+      margin-top: 0px;
+      position: fixed;
+      bottom: 0;
+      a {
+          background-color: #502d0b;
+          width: 100%;
+          display: table;
+          padding: 7px;
+          height: 35px;
+    
+      .icon-image {
+      img{
+          height: 11px;
+          margin-bottom: 2px;
+          line-height: 1;
+          width: 11px;
+          margin-right: 5px;
+          filter: invert(1);
+         }
+      }
+      .privacy_info_text {
+          font-size: 11px;
+          letter-spacing: 0px;
+          line-height: 18px;
+          color: #fff;
+      }
+       }
+  }
+  /*
+  * @ Common login Css Start
+  */
+    &.common_login_body{
+      .button_wrapper{margin-top: 34px;}
+      .hover_login_text{display: none;}
+      .button_wrapper{
+        button:hover{
+          .login_text{display: block;}
+          .hover_login_text{display: none;}
+        }
+      }
+    } 
+  }
+}
