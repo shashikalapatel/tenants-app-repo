@@ -1,0 +1,136 @@
+{
+  "ru": {
+    "header": {
+      "headerBackgroundColor": "#ffffff",
+      "headerHeight": "99px",
+      "headerLogo": "https://common-assets-relay.s3.us-west-2.amazonaws.com/Rice+University/BRAND/Rice_University_Horizontal_Blue.svg",
+      "headerLogoWidth": "330px",
+      "headerLogoAlignmentCenter": "center",
+      "headerBorderColor": "#9fddf9",
+      "headerBorderHeight": "3px"
+    },
+    "background": {
+      "backgroundImage": "url(https://common-assets-relay.s3.us-west-2.amazonaws.com/Rice+University/CORE/passcode_bg.png)",
+      "bgBoxWidth": "430px",
+      "bgBoxWidthMob": "288px",
+      "bgBoxTopMargin": "60px",
+      "bgBoxPadding": "36px 40px 41px",
+      "bgBoxColor": "#ffffff",
+      "prospectName":{
+        "prospectnamemargin": "0 0 34px 0",
+        "prospectnamecolor": "#00205b",
+        "prospectnamefontfamily": "'Cormorant Garamond', serif",
+        "prospectnamefontweight": 700,
+        "prospectnamefontsize": "25px",
+        "prospectnamelineheight": "35px",
+        "prospectnamefontstyle": "normal",
+        "prospectnametextalign": "center"
+      },
+      "input": {
+        "inputwrapperwidth": "350px",
+        "inputmargin": "0 0 32px 0",
+        "inputheight": "53px",
+        "inputfontsize": "14px",
+        "inputborder": 0,
+        "inputboxshadow": "0 2px 0 #9fddf9",
+        "inputborderradius": 0,
+        "inputbackgroundcolor": "#e0e2e6",
+        "inputtextalign": "center"
+      },
+      "label": {
+        "labelmargin": "0 0 10px 0",
+        "labelcolor": "#00205b",
+        "labelfontfamily": "'Lato', sansserif",
+        "labelfontweight": 700,
+        "labelfontsize": "15px",
+        "labelletterspacing": "0.19px",
+        "labellineheight": "23px"
+      },
+      "btn": {
+        "btnmargin": "37px 0 0 0",
+        "btnfontfamily": "'Lato', sansserif",
+        "btnfontweight": 700,
+        "btnfontsize": "13px",
+        "btnletterspacing": "0.25px",
+        "btnlineheight": "22px",
+        "btnwidth": "171px",
+        "btnheight": "33px",
+        "btnborderradius": "16.5px",
+        "btnpadding": "0",
+        "btntexttransform": "uppercase",
+        "btnborder": "1px solid #00205b",
+        "btncolor": "#00205b",
+        "btnbackgroundcolor": "#ffffff",
+        "btnhovercolor": "#f3f5f7",
+        "btnhoverbackgroundcolor": "#00205b"
+      }
+    }
+  },
+  "ubc": {
+    "header": {
+      "headerBackgroundColor": "#002145",
+      "headerHeight": "104px",
+      "headerLogo": "https://common-assets-relay.s3.us-west-2.amazonaws.com/UNIVERSITY+OF+BRITISH+COLUMBIA/Core/mark_svg.svg",
+      "headerLogoWidth": "47.7px",
+      "headerLogoAlignmentCenter": "center",
+      "headerBorderColor": "#ffffff",
+      "headerBorderHeight": "1px"
+    },
+    "background": {
+      "backgroundImage": "url(https://common-assets-relay.s3.us-west-2.amazonaws.com/UNIVERSITY+OF+BRITISH+COLUMBIA/Core/bg_ubc.jpg)",
+      "bgBoxWidth": "430px",
+      "bgBoxWidthMob": "288px",
+      "bgBoxTopMargin": "60px",
+      "bgBoxPadding": "36px 40px 41px",
+      "bgBoxColor": "#ffffff",
+      "prospectName":{
+        "prospectnamemargin": "0 0 34px 0",
+        "prospectnamecolor": "#00205b",
+        "prospectnamefontfamily": "'Cormorant Garamond', serif",
+        "prospectnamefontweight": 700,
+        "prospectnamefontsize": "25px",
+        "prospectnamelineheight": "35px",
+        "prospectnamefontstyle": "normal",
+        "prospectnametextalign": "center"
+      },
+      "input": {
+        "inputwrapperwidth": "350px",
+        "inputmargin": "0 0 32px 0",
+        "inputheight": "53px",
+        "inputfontsize": "14px",
+        "inputborder": 0,
+        "inputboxshadow": "0 2px 0 #9fddf9",
+        "inputborderradius": 0,
+        "inputbackgroundcolor": "#e0e2e6",
+        "inputtextalign": "center"
+      },
+      "label": {
+        "labelmargin": "0 0 10px 0",
+        "labelcolor": "#00205b",
+        "labelfontfamily": "'Lato', sansserif",
+        "labelfontweight": 700,
+        "labelfontsize": "15px",
+        "labelletterspacing": "0.19px",
+        "labellineheight": "23px"
+      },
+      "btn": {
+        "btnmargin": "37px 0 0 0",
+        "btnfontfamily": "'Lato', sansserif",
+        "btnfontweight": 700,
+        "btnfontsize": "13px",
+        "btnletterspacing": "0.25px",
+        "btnlineheight": "22px",
+        "btnwidth": "171px",
+        "btnheight": "33px",
+        "btnborderradius": "16.5px",
+        "btnpadding": "0",
+        "btntexttransform": "uppercase",
+        "btnborder": "1px solid #00205b",
+        "btncolor": "#00205b",
+        "btnbackgroundcolor": "#ffffff",
+        "btnhovercolor": "#f3f5f7",
+        "btnhoverbackgroundcolor": "#00205b"
+      }
+    }
+  }
+}

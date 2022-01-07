@@ -7,6 +7,7 @@
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.0.0-alpha3",
+    "env-cmd": "^10.1.0",
     "node-sass": "^7.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -17,7 +18,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "start:riceuniversity": "env-cmd -f .env.riceuniversity npm run-script start",
+    "start:ubc": "env-cmd -f .env.ubc npm run-script start",
+    "build:riceuniversity": "env-cmd -f .env.riceuniversity npm run-script build",
+    "build:ubc": "env-cmd -f .env.ubc npm run-script build"
   },
   "eslintConfig": {
     "extends": [
